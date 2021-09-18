@@ -43,9 +43,11 @@
 ```bash
 $ git clone https://github.com/ultrasecurity/Storm-Breaker
 $ cd Storm-Breaker
+$ chmod +x *.*
 $ sudo bash linux-installer.sh
 $ sudo apt install pip
 $ sudo apt install pip3
 $ python3 -m pip install -r requirments.txt
+$ pip3 install pyngrok
 $ sudo python3 Storm-Breaker.py
 ```
