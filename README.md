@@ -44,6 +44,8 @@
 $ git clone https://github.com/ultrasecurity/Storm-Breaker
 $ cd Storm-Breaker
 $ sudo bash linux-installer.sh
+$ sudo apt install pip
+$ sudo apt install pip3
 $ python3 -m pip install -r requirments.txt
 $ sudo python3 Storm-Breaker.py
 ```
